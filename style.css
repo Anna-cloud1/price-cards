@@ -12,6 +12,7 @@
   height: 770px;
   width: 380px;
   margin-right: 18px;
+  margin-bottom: 115px;
   background-color: #334247;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
   overflow: hidden;
@@ -91,6 +92,9 @@
   line-height: 17px;
 }
 
+.first-card {
+  margin-left: 132px;
+}
 .first-card__price {
   background-color: #5BB189;
 }
@@ -106,6 +110,9 @@
   margin: 40px 113px 15px 112px;
 }
 
+.third-card {
+  margin-right: 132px;
+}
 .third-card__price {
   background-color: #EC632A;
 }

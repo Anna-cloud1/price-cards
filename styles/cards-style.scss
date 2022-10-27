@@ -15,6 +15,7 @@
   height: 770px;
   width: 380px;
   margin-right: 18px;
+  margin-bottom: 115px;
   background-color: $card-background;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
   overflow: hidden;
@@ -105,7 +106,7 @@
 }
 
 .first-card {
-
+margin-left: 132px;
   &__price {
     background-color: $green;
   }
@@ -127,6 +128,7 @@
 }
 
 .third-card {
+    margin-right: 132px;
   &__price {
     background-color: $orange;
   }
