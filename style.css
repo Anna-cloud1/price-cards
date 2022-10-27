@@ -1,0 +1,127 @@
+.price-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1000px;
+  width: 1440px;
+}
+
+.price-card {
+  display: flex;
+  flex-direction: column;
+  height: 770px;
+  width: 380px;
+  margin-right: 18px;
+  background-color: #334247;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+  overflow: hidden;
+}
+.price-card__title {
+  font-size: 35px;
+  line-height: 43px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+  margin-top: 33px;
+}
+.price-card__subtitle {
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
+.price-card__price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 105px;
+  width: 100%;
+  margin: 33px 0 0 0;
+  font-size: 55px;
+  line-height: 67px;
+}
+.price-card__description {
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  margin: 40px 26px 0px;
+}
+.price-card__image {
+  margin: 0 22px 0 22px;
+}
+.price-card__options-list {
+  font-size: 15px;
+  line-height: 18px;
+  list-style-type: none;
+  padding: 0;
+}
+.price-card__options-list-li {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+}
+.price-card__options-list-li:nth-of-type(odd) {
+  background-color: #2A3438;
+}
+.price-card__order-btn {
+  height: 40px;
+  width: 154px;
+  border-radius: 20px;
+  border: none;
+  padding: 0;
+  margin: 40px 113px 40px 112px;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #fff;
+}
+.price-card__promotion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  width: 147px;
+  transform: rotate(45deg);
+  background-color: #DC3F45;
+  position: relative;
+  bottom: 708px;
+  right: -263px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.first-card__price {
+  background-color: #5BB189;
+}
+.first-card__btn {
+  background-color: #5BB189;
+}
+
+.second-card__price {
+  background-color: #3A6BA5;
+}
+.second-card__btn {
+  background-color: #3A6BA5;
+  margin: 40px 113px 15px 112px;
+}
+
+.third-card__price {
+  background-color: #EC632A;
+}
+.third-card__btn {
+  background-color: #EC632A;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #141B1C;
+  color: #fff;
+  font-weight: 300;
+}
+
+/*# sourceMappingURL=style.css.map */
