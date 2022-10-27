@@ -12,7 +12,7 @@
   height: 770px;
   width: 380px;
   margin-right: 18px;
-  margin-bottom: 115px;
+  margin-bottom: 110px;
   background-color: #334247;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
   overflow: hidden;
@@ -54,6 +54,7 @@
   line-height: 18px;
   list-style-type: none;
   padding: 0;
+  margin-top: 40px;
 }
 .price-card__options-list-li {
   display: flex;
@@ -85,7 +86,7 @@
   transform: rotate(45deg);
   background-color: #DC3F45;
   position: relative;
-  bottom: 708px;
+  bottom: 715px;
   right: -263px;
   font-weight: 700;
   font-size: 14px;
@@ -107,7 +108,7 @@
 }
 .second-card__btn {
   background-color: #3A6BA5;
-  margin: 40px 113px 15px 112px;
+  margin: 40px 113px 19px 112px;
 }
 
 .third-card {
