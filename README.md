@@ -1,4 +1,6 @@
-# price-cards
+# Price-cards
+
+# Layout supports desktop (up-to-1400) version
 
 
 ### [Site link](https://anna-cloud1.github.io/price-cards/) 
