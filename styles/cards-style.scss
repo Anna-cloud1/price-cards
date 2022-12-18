@@ -2,25 +2,23 @@
 
 .price-cards {
   display: flex;
-  align-items: center;
   justify-content: center;
-  width: 1440px;
+  min-height: 100vh;
   margin: auto;
 }
 
 .price-card {
-  
   display: flex;
   flex-direction: column;
   height: 770px;
   width: 380px;
-  margin-right: 18px;
+  margin: 0 18px 0 0;
   background-color: $card-background;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
   overflow: hidden;
 
   &:last-child {
-    margin-right: 0;
+    margin: 0;
   }
 
   &__title {
@@ -28,8 +26,7 @@
     line-height: 43px;
     font-weight: 700;
     text-align: center;
-    margin: 0;
-    margin-top: 33px;
+    margin: 33px 0 0 0;
   }
 
   &__subtitle {
@@ -42,7 +39,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 200px;
+    min-height: 105px;
     width: 100%;
     margin: 33px 0 0 0;
     font-size: 55px;
@@ -65,7 +62,7 @@
     line-height: 18px;
     list-style-type: none;
     padding: 0;
-    margin-top: 40px;
+    margin: 40px 0 0 0;
   }
 
   &__options-list-li {
@@ -83,29 +80,26 @@
     width: 154px;
     border-radius: 20px;
     border: none;
-    padding: 0;
     margin: 40px 113px 40px 112px;
     font-size: 14px;
-    line-height: 17px;
     text-align: center;
     color: $white-font;
   }
 
-  &__promotion {
+  &__popular {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;  
-    width: 147px;      
+    position: relative;
+    width: 147px;
     height: 25px;
     padding: 10px;
     transform: rotate(45deg);
     background-color: $line-color;
-    bottom: 715px;
-    right: -263px;
+    bottom: 735px;
+    right: -265px;
     font-weight: 700;
     font-size: 14px;
-    line-height: 17px;
   }
 }
 
